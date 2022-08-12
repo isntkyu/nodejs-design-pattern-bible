@@ -1,6 +1,5 @@
 # nodejs-design-pattern-bible
 
----
 'Node.js 디자인 패턴 바이블'를 읽고 정리
 ---
 
