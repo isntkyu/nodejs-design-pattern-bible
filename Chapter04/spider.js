@@ -4,6 +4,21 @@ import superagent from "superagent";
 import mkdirp from "mkdirp";
 import { urlToFilename } from "./utils.js";
 
+// export function spiderTast(url, nesting, queue, cb) {
+//   fs.access(filename, (err) => {
+//     if  || err.code !== "ENOENT") {
+//       return cb(null, filename, false);(!err
+//     }
+
+//     download(url, filename, (err) => {
+//       if (err) {
+//         return cb(err);
+//       }
+//       cb(null, filename, true);
+//     });
+//   });
+// }
+
 export function spider(url, cb) {
   const filename = urlToFilename(url);
   fs.access(filename, (err) => {
