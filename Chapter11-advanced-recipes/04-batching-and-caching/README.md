@@ -140,3 +140,11 @@
 > Cache hit  
 > Processing query: ?product=book  
 > Cache hit
+
+---
+
+### 캐싱 참고사항
+
+- 메모리사용률을 위해 LRU, FIFO 정책 적용
+- 레디스, 멤캐시등 공유저장소 사용
+- ttl 아닌 수동 캐시 무효화는 관리가 복잡하지만 수명이 길고 최신의 캐시데이터 사용가능
