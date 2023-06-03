@@ -46,4 +46,4 @@ person을 통해서만 접근할 수 있는 privateProperties.
 
 ### 7-1-3 간단한 코드 프로파일러 만들기
 
-../profiler.js
+./profiler.js
