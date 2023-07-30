@@ -34,8 +34,8 @@ js에서는 @@iterator함수 (Symbol.iterator) 함수를 통해 접근 가능한
 
 ### 네이티브 js 인터페이스로서의 iterator와 iterable
 
-for...of
-speread operator
+for...of  
+speread operator  
 구조분해할당
 
 - API  
@@ -48,5 +48,3 @@ stream.Readable.from(), Buffer
 
 *배열 중복확인
 uniqArr = Array.from(new Set(array))
-
-
