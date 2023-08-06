@@ -1,0 +1,12 @@
+{
+  "name": "chapter12",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "### 12-1-1 Node.js 애플리케이션 확장",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
