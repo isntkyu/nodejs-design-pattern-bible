@@ -127,6 +127,14 @@ Node.js에서는 클러스터 모듈 대신 이 접근을 사용해야 하는 �
 
 클러스터와 결합도 가능
 
+---
 
+nodejs 기반: forever, pm2
+
+os 기반 모니터: systemd
+
+고급 모니터링 솔루션: monit, supervisord
+
+컨테이너: 쿠버네티스, 도커 스웜
 
 
