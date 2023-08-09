@@ -8,5 +8,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "consul": "^1.2.0",
+    "http-proxy": "^1.18.1",
+    "nanoid": "^4.0.2",
+    "portfinder": "^1.0.32"
+  }
 }
